@@ -1,0 +1,4 @@
+rootProject.name = 'regression-listener'
+
+include "jardecomp"
+project(":jardecomp").projectDir = new File(rootProject.projectDir, "src/jardecomp")
